@@ -1,0 +1,15 @@
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Data\bin\Debug\net6.0\TatBlog.Data.deps.json
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Data\bin\Debug\net6.0\TatBlog.Data.dll
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Data\bin\Debug\net6.0\TatBlog.Data.pdb
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Data\bin\Debug\net6.0\TatBlog.Core.dll
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Data\bin\Debug\net6.0\TatBlog.Core.pdb
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Data\obj\Debug\net6.0\TatBlog.Data.csproj.AssemblyReference.cache
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Data\obj\Debug\net6.0\TatBlog.Data.GeneratedMSBuildEditorConfig.editorconfig
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Data\obj\Debug\net6.0\TatBlog.Data.AssemblyInfoInputs.cache
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Data\obj\Debug\net6.0\TatBlog.Data.AssemblyInfo.cs
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Data\obj\Debug\net6.0\TatBlog.Data.csproj.CoreCompileInputs.cache
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Data\obj\Debug\net6.0\TatBlog.Data.csproj.CopyComplete
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Data\obj\Debug\net6.0\TatBlog.Data.dll
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Data\obj\Debug\net6.0\refint\TatBlog.Data.dll
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Data\obj\Debug\net6.0\TatBlog.Data.pdb
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Data\obj\Debug\net6.0\ref\TatBlog.Data.dll

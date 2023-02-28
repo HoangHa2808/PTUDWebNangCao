@@ -1,0 +1,17 @@
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\bin\Debug\net6.0\TatBlog.Services.deps.json
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\bin\Debug\net6.0\TatBlog.Services.dll
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\bin\Debug\net6.0\TatBlog.Services.pdb
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\bin\Debug\net6.0\TatBlog.Core.dll
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\bin\Debug\net6.0\TatBlog.Data.dll
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\bin\Debug\net6.0\TatBlog.Core.pdb
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\bin\Debug\net6.0\TatBlog.Data.pdb
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.csproj.AssemblyReference.cache
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.GeneratedMSBuildEditorConfig.editorconfig
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.AssemblyInfoInputs.cache
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.AssemblyInfo.cs
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.csproj.CoreCompileInputs.cache
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.csproj.CopyComplete
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.dll
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\obj\Debug\net6.0\refint\TatBlog.Services.dll
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.pdb
+H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\obj\Debug\net6.0\ref\TatBlog.Services.dll
