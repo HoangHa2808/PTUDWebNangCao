@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4vvF9dEV2Mx0hmXF7WSmXpP9IyylsmtsRgQHuigPClJlJbuRg+k7FuWBRHp+id45oUF1fS5evfDf6FzXO4M0mg==",
+  "dgSpecHash": "vZvKP4bKqP29dX95nkuIXsCRJOJU6NAc3RZ+vY9N60Cs9LlKuZ3JZAJ4W9lAYtHPnEcRryOXPOZWyxXewAtf7g==",
   "success": true,
-  "projectFilePath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj",
+  "projectFilePath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

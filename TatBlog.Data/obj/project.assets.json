@@ -3245,11 +3245,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\TipsAndTricks\\TatBlog.Data\\TatBlog.Data.csproj",
+      "projectUniqueName": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Data\\TatBlog.Data.csproj",
       "projectName": "TatBlog.Data",
-      "projectPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\TipsAndTricks\\TatBlog.Data\\TatBlog.Data.csproj",
+      "projectPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Data\\TatBlog.Data.csproj",
       "packagesPath": "C:\\Users\\hadoa\\.nuget\\packages\\",
-      "outputPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\TipsAndTricks\\TatBlog.Data\\obj\\",
+      "outputPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hadoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3266,8 +3266,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj": {
-              "projectPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj"
+            "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj": {
+              "projectPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj"
             }
           }
         }

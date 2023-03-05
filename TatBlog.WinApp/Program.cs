@@ -14,11 +14,13 @@ namespace TatBlog.WinApp
 
 			InitDB(context);
 
-			XuatDanhSachTacGia(context);
-			XuatDanhSachBaiViet(context);
-			// TimCacBaiVietDuocXemNhieuNhat(context, 3);
-			// XuatDanhSachDanhMuc(context);
-			// XuatDanhSachTheTheoPhanTrang(context);
+			//XuatDanhSachTacGia(context);
+			//XuatDanhSachBaiViet(context);
+			//BaiVietDuocXemNhieuNhat(context, 3);
+			//XuatDanhSachDanhMuc(context);
+			//XuatDanhSachTheTheoPhanTrang(context);
+			//TimMotTheChoTruoc(context,"");
+			XoaTags(context, 2);
 
 			// Wait
 			Console.ReadKey();
@@ -70,7 +72,7 @@ namespace TatBlog.WinApp
 			}
 		}
 
-		static async void TimCacBaiVietDuocXemNhieuNhat(BlogDbContext context, int numPost)
+		static async void BaiVietDuocXemNhieuNhat(BlogDbContext context, int numPost)
 		{
 			// Tạo đối tượng BlogRepository
 			IBlogRepository blogRepo = new BlogRepository(context);
@@ -129,5 +131,79 @@ namespace TatBlog.WinApp
 				Console.WriteLine("{0,-5}{1,-50}{2,10}", tag.Id, tag.Name, tag.PostCount);
 			}
 		}
+
+		static async void TimMotTheChoTruoc(BlogDbContext context, string slug)
+		{
+			// Tạo đối tượng BlogRepository
+			IBlogRepository blogRepo = new BlogRepository(context);
+
+			var tags = await blogRepo.GetTagsItemsAsync(slug);
+
+			foreach (var tag in tags)
+			{
+				Console.WriteLine("ID      : {0}", tag.Id);
+				Console.WriteLine("Name   : {0}", tag.Name);
+				Console.WriteLine("Url slug    : {0}", tag.UrlSlug);
+				Console.WriteLine("Descriptin    : {0}", tag.Description);
+				Console.WriteLine("Post count  : {0}", tag.PostCount);
+				Console.WriteLine("".PadRight(60, '-'));
+			}
+		}
+
+		#region C.Thuc hanh
+		// Cau 1. a: Tìm một thẻ(Tag) theo tên định danh(slug)
+
+		// Cau 1. c: Lấy danh sách tất cả các thẻ (Tag) kèm theo số bài viết chứa thẻ đó
+
+
+		// Cau 1.d: Xóa một thẻ theo mã cho trước
+		static async void XoaTags(BlogDbContext context, int id)
+		{
+			IBlogRepository blogRepo = new BlogRepository(context);
+			await blogRepo.DeleteTagWithIdAsync(id);
+
+		}
+
+
+		// Câu 1. e: Tìm một chuyên mục (Category) theo tên định danh(slug)
+
+		// 1.F: Tìm 1 chuyên mục theo mã số
+
+		// 1.G: Thêm hoặc cập nhật một chuyên mục
+
+		// 1.H: Xóa một chuyên mục theo mã số
+
+		// 1.I: Kiểm tra tên định danh (slug)
+
+		// 1.J: Lấy và phân trang danh sách chuyên mục
+
+		// 1.K: Đếm số lượng bài viết trong N tháng gần nhất. N là tham số đầu vào.
+		// Kết quả là một danh sách các đối tượng chứa các thông tin sau: Năm, Tháng, Số bài viết
+
+
+		// 1.L: Tìm một bài viết theo mã số
+
+		// 1.M: Thêm hay cập nhật một bài viết
+
+		// 1.N: Chuyển đổi trạng thái Published của bài viết
+
+		// 1.O: Chuyển đổi trạng thái Published của bài viết
+
+		// 1.P: Tạo lớp PostQuery để lưu trữ các điều kiện tìm kiếm bài viết. Chẳng hạn:mã tác giả,
+		// mã chuyên mục, tên ký hiệu chuyên mục, năm/tháng đăng bài, từ khóa, … 
+
+		// 1.Q: Tìm tất cả bài viết thỏa mãn điều kiện tìm kiếm được cho trong đối tượng
+		// PostQuery(kết quả trả về kiểu IList<Post>)
+
+		// 1.R: Đếm số lượng bài viết thỏa mãn điều kiện tìm kiếm được cho trong đối tượng PostQuery
+
+		// 1.S: Tìm và phân trang các bài viết thỏa mãn điều kiện tìm kiếm được cho trong
+		// đối tượng PostQuery(kết quả trả về kiểu IPagedList<Post>)
+
+		// 1.T: Tương tự câu trên nhưng yêu cầu trả về kiểu IPagedList<T>. Trong đó T
+		// là kiểu dữ liệu của đối tượng mới được tạo từ đối tượng Post.Hàm này có
+		// thêm một đầu vào là Func<IQueryable<Post>, IQueryable<T>> mapper
+		// để ánh xạ các đối tượng Post thành các đối tượng T theo yêu cầu
+		#endregion
 	}
 }

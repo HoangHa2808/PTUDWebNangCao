@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TatBlog.Services
-build_property.ProjectDir = H:\PTUDWebNC\Bai_Thuc_Hanh\TipsAndTricks\TatBlog.Services\
+build_property.ProjectDir = H:\PTUDWebNC\Bai_Thuc_Hanh\src\TipsAndTricks\TatBlog.Services\

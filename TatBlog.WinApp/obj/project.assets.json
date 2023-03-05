@@ -3639,11 +3639,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\TipsAndTricks\\TatBlog.WinApp\\TatBlog.WinApp.csproj",
+      "projectUniqueName": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.WinApp\\TatBlog.WinApp.csproj",
       "projectName": "TatBlog.WinApp",
-      "projectPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\TipsAndTricks\\TatBlog.WinApp\\TatBlog.WinApp.csproj",
+      "projectPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.WinApp\\TatBlog.WinApp.csproj",
       "packagesPath": "C:\\Users\\hadoa\\.nuget\\packages\\",
-      "outputPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\TipsAndTricks\\TatBlog.WinApp\\obj\\",
+      "outputPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.WinApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hadoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3660,14 +3660,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj": {
-              "projectPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj"
+            "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj": {
+              "projectPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj"
             },
-            "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\TipsAndTricks\\TatBlog.Data\\TatBlog.Data.csproj": {
-              "projectPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\TipsAndTricks\\TatBlog.Data\\TatBlog.Data.csproj"
+            "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Data\\TatBlog.Data.csproj": {
+              "projectPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Data\\TatBlog.Data.csproj"
             },
-            "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\TipsAndTricks\\TatBlog.Services\\TatBlog.Services.csproj": {
-              "projectPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\TipsAndTricks\\TatBlog.Services\\TatBlog.Services.csproj"
+            "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Services\\TatBlog.Services.csproj": {
+              "projectPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Services\\TatBlog.Services.csproj"
             }
           }
         }
