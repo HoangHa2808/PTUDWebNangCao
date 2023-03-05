@@ -19,8 +19,8 @@ public class BlogDbContext : DbContext
 	protected override void OnConfiguring(
 		DbContextOptionsBuilder optionsBuilder)
 	{
-		optionsBuilder.UseSqlServer(@"Server=Summer;Database=TatBlog;
-Trusted_Connection=True;MultipleActiveResultSets=true");
+		optionsBuilder.UseSqlServer(@"Server=HOANGHA;Database=TatBlog;
+Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True");
 	}
 
 	protected override void OnModelCreating(ModelBuilder modelBuilder)

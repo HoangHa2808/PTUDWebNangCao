@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oIQ1v3aOofnSXGBxgnbVyyvqj+Wo6h0rNYiZ7BaxEl5C8lZAlByXs9ZvvFAQDiL+U0mlxUvtcqkKUkqH8nfzrQ==",
+  "dgSpecHash": "isChPnajhadHWCi2pDB5c2GdNoiXmCPBEHPa1rNVeqNkzTrlTO7oUbyWqi1M39uniA9+YJhe5qWJlxZIPOSerg==",
   "success": true,
-  "projectFilePath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\TipsAndTricks\\TatBlog.Services\\TatBlog.Services.csproj",
+  "projectFilePath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Services\\TatBlog.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hadoa\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\hadoa\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

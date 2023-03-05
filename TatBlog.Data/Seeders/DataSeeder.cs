@@ -36,6 +36,7 @@ public class DataSeeder : IDataSeeder
 				Email = "json@gmail.com",
 				JoinedDate = new DateTime(2022, 10, 21)
 			},
+
 			new()
 			{
 				FullName = "Jessica Wonder",
@@ -43,6 +44,30 @@ public class DataSeeder : IDataSeeder
 				Email = "jessica665@motip.com",
 				JoinedDate = new DateTime(2022, 4, 19)
 			},
+
+			new()
+			{
+				FullName = "Author1",
+				UrlSlug = "author1",
+				Email = "author1@motip.com",
+				JoinedDate = new DateTime(2022, 5, 19)
+			},
+
+			new()
+			{
+				FullName = "Author2",
+				UrlSlug = "author2",
+				Email = "author2@gmail.com",
+				JoinedDate = new DateTime(2022, 4, 12)
+			},
+
+			new()
+			{
+				FullName = "Author3",
+				UrlSlug = "author3",
+				Email = "author3@email.com",
+				JoinedDate = new DateTime(2022, 6, 19)
+			}
 		};
 		_dbContext.Authors.AddRange(authors);
 		_dbContext.SaveChanges();
@@ -194,7 +219,7 @@ public class DataSeeder : IDataSeeder
 				PostedDate = new DateTime(2021, 9, 15, 10, 13, 0),
 				ModifiedDate = null,
 				ViewCount = 2,
-				Author = authors[5],
+				Author = authors[4],
 				Category = categories[8],
 				Tags = new List<Tag>()
 				{
@@ -212,7 +237,7 @@ public class DataSeeder : IDataSeeder
 				PostedDate = new DateTime(2021, 9, 20, 12, 5, 0),
 				ModifiedDate = null,
 				ViewCount = 9,
-				Author = authors[7],
+				Author = authors[0],
 				Category = categories[9],
 				Tags = new List<Tag>()
 				{
@@ -231,7 +256,7 @@ public class DataSeeder : IDataSeeder
 				ModifiedDate = null,
 				ViewCount = 4,
 				Author = authors[3],
-				Category = categories[10],
+				Category = categories[9],
 				Tags = new List<Tag>()
 				{
 					tags[15]
@@ -248,11 +273,11 @@ public class DataSeeder : IDataSeeder
 				PostedDate = new DateTime(2021, 9, 15, 13, 5, 0),
 				ModifiedDate = null,
 				ViewCount = 5,
-				Author = authors[5],
-				Category = categories[10],
+				Author = authors[2],
+				Category = categories[8],
 				Tags = new List<Tag>()
 				{
-					tags[20]
+					tags[19]
 				}
 			},
 			new()
@@ -266,8 +291,8 @@ public class DataSeeder : IDataSeeder
 				PostedDate = new DateTime(2022, 9, 20, 10, 5, 0),
 				ModifiedDate = null,
 				ViewCount = 4,
-				Author = authors[5],
-				Category = categories[10],
+				Author = authors[4],
+				Category = categories[5],
 				Tags = new List<Tag>()
 				{
 					tags[19]
@@ -320,8 +345,8 @@ public class DataSeeder : IDataSeeder
 				PostedDate = new DateTime(2022, 4, 20, 7, 5, 0),
 				ModifiedDate = null,
 				ViewCount = 7,
-				Author = authors[5],
-				Category = categories[10],
+				Author = authors[0],
+				Category = categories[4],
 				Tags = new List<Tag>()
 				{
 					tags[16]
@@ -373,7 +398,7 @@ public class DataSeeder : IDataSeeder
 					ModifiedDate = null,
 					ViewCount = 12,
 					Author = authors[2],
-					Category = categories[8],
+					Category = categories[6],
 					Tags = new List<Tag>()
 					{
 						tags[10]
@@ -393,7 +418,7 @@ public class DataSeeder : IDataSeeder
 					Category = categories[8],
 					Tags = new List<Tag>()
 					{
-						tags[10]
+						tags[15]
 					}
 				},
 				new() {
@@ -407,10 +432,10 @@ public class DataSeeder : IDataSeeder
 					ModifiedDate = null,
 					ViewCount = 12,
 					Author = authors[3],
-					Category = categories[8],
+					Category = categories[3],
 					Tags = new List<Tag>()
 					{
-						tags[10]
+						tags[5]
 					}
 				},
 				new() {
@@ -441,10 +466,10 @@ public class DataSeeder : IDataSeeder
 					ModifiedDate = null,
 					ViewCount = 12,
 					Author = authors[0],
-					Category = categories[8],
+					Category = categories[0],
 					Tags = new List<Tag>()
 					{
-						tags[10]
+						tags[7]
 					}
 				},
 				new() {
@@ -461,7 +486,7 @@ public class DataSeeder : IDataSeeder
 					Category = categories[8],
 					Tags = new List<Tag>()
 					{
-						tags[10]
+						tags[18]
 					}
 				},
 				new() {
@@ -478,7 +503,7 @@ public class DataSeeder : IDataSeeder
 					Category = categories[8],
 					Tags = new List<Tag>()
 					{
-						tags[10]
+						tags[14]
 					}
 				},
 				new() {
@@ -492,10 +517,10 @@ public class DataSeeder : IDataSeeder
 					ModifiedDate = null,
 					ViewCount = 12,
 					Author = authors[1],
-					Category = categories[8],
+					Category = categories[2],
 					Tags = new List<Tag>()
 					{
-						tags[10]
+						tags[12]
 					}
 				},
 				new() {
@@ -526,10 +551,10 @@ public class DataSeeder : IDataSeeder
 					ModifiedDate = null,
 					ViewCount = 12,
 					Author = authors[1],
-					Category = categories[8],
+					Category = categories[9],
 					Tags = new List<Tag>()
 					{
-						tags[10]
+						tags[6]
 					}
 				},
 				new() {
@@ -559,7 +584,7 @@ public class DataSeeder : IDataSeeder
 					PostedDate = new DateTime(2022, 2, 3, 10, 5, 0),
 					ModifiedDate = null,
 					ViewCount = 11,
-					Author = authors[5],
+					Author = authors[1],
 					Category = categories[8],
 					Tags = new List<Tag>()
 					{
@@ -593,7 +618,7 @@ public class DataSeeder : IDataSeeder
 					PostedDate = new DateTime(2022, 2, 3, 11, 20, 0),
 					ModifiedDate = null,
 					ViewCount = 12,
-					Author = authors[4],
+					Author = authors[3],
 					Category = categories[8],
 					Tags = new List<Tag>()
 					{
@@ -611,7 +636,7 @@ public class DataSeeder : IDataSeeder
 					ModifiedDate = null,
 					ViewCount = 0,
 					Author = authors[4],
-					Category = categories[14],
+					Category = categories[5],
 					Tags = new List<Tag>()
 					{
 						tags[11]
@@ -644,7 +669,7 @@ public class DataSeeder : IDataSeeder
 					PostedDate = new DateTime(2022, 1, 11, 10, 14, 0),
 					ModifiedDate = null,
 					ViewCount = 14,
-					Author = authors[5],
+					Author = authors[4],
 					Category = categories[5],
 					Tags = new List<Tag>()
 					{
