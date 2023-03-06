@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Data\\TatBlog.Data.csproj": {}
+    "C:\\Users\\Hoang Ha\\Desktop\\2012353-Lab01-Practice\\TatBlog.Data\\TatBlog.Data.csproj": {}
   },
   "projects": {
-    "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj": {
+    "C:\\Users\\Hoang Ha\\Desktop\\2012353-Lab01-Practice\\TatBlog.Core\\TatBlog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Hoang Ha\\Desktop\\2012353-Lab01-Practice\\TatBlog.Core\\TatBlog.Core.csproj",
         "projectName": "TatBlog.Core",
-        "projectPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj",
-        "packagesPath": "C:\\Users\\hadoa\\.nuget\\packages\\",
-        "outputPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Core\\obj\\",
+        "projectPath": "C:\\Users\\Hoang Ha\\Desktop\\2012353-Lab01-Practice\\TatBlog.Core\\TatBlog.Core.csproj",
+        "packagesPath": "C:\\Users\\Hoang Ha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hoang Ha\\Desktop\\2012353-Lab01-Practice\\TatBlog.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hadoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hoang Ha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,21 +55,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Data\\TatBlog.Data.csproj": {
+    "C:\\Users\\Hoang Ha\\Desktop\\2012353-Lab01-Practice\\TatBlog.Data\\TatBlog.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Data\\TatBlog.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Hoang Ha\\Desktop\\2012353-Lab01-Practice\\TatBlog.Data\\TatBlog.Data.csproj",
         "projectName": "TatBlog.Data",
-        "projectPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Data\\TatBlog.Data.csproj",
-        "packagesPath": "C:\\Users\\hadoa\\.nuget\\packages\\",
-        "outputPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Data\\obj\\",
+        "projectPath": "C:\\Users\\Hoang Ha\\Desktop\\2012353-Lab01-Practice\\TatBlog.Data\\TatBlog.Data.csproj",
+        "packagesPath": "C:\\Users\\Hoang Ha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hoang Ha\\Desktop\\2012353-Lab01-Practice\\TatBlog.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hadoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hoang Ha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj": {
-                "projectPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj"
+              "C:\\Users\\Hoang Ha\\Desktop\\2012353-Lab01-Practice\\TatBlog.Core\\TatBlog.Core.csproj": {
+                "projectPath": "C:\\Users\\Hoang Ha\\Desktop\\2012353-Lab01-Practice\\TatBlog.Core\\TatBlog.Core.csproj"
               }
             }
           }
@@ -124,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

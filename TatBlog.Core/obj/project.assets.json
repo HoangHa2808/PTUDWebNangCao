@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\hadoa\\.nuget\\packages\\": {}
+    "C:\\Users\\Hoang Ha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Hoang Ha\\Desktop\\2012353-Lab01-Practice\\TatBlog.Core\\TatBlog.Core.csproj",
       "projectName": "TatBlog.Core",
-      "projectPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Core\\TatBlog.Core.csproj",
-      "packagesPath": "C:\\Users\\hadoa\\.nuget\\packages\\",
-      "outputPath": "H:\\PTUDWebNC\\Bai_Thuc_Hanh\\src\\TipsAndTricks\\TatBlog.Core\\obj\\",
+      "projectPath": "C:\\Users\\Hoang Ha\\Desktop\\2012353-Lab01-Practice\\TatBlog.Core\\TatBlog.Core.csproj",
+      "packagesPath": "C:\\Users\\Hoang Ha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hoang Ha\\Desktop\\2012353-Lab01-Practice\\TatBlog.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hadoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hoang Ha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
